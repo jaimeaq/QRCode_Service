@@ -1,0 +1,28 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.HashMap;
+      import java.util.Scanner;
+      
+      class Main {
+          private static void printMostFrequentWord(String[] words) {
+              // write your code here
+          }
+      
+          // don't change the code below
+          public static void main(String[] args) {
+              Scanner scanner = new Scanner(System.in);
+              String[] words = scanner.nextLine().split(" ");
+              printMostFrequentWord(words);
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25740#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 30 Dec 2023 23:09:37 UTC"
+record: -1
+submission_language: java17
